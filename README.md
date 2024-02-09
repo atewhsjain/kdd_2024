@@ -1,1 +1,1 @@
-# kdd_2024
+# This is a sample commit.
