@@ -1,8 +1,8 @@
 CC       := clang
-INCLUDES := -I $(ESCAPE_HOME) -I/opt/homebrew/opt/gperftools/include
+INCLUDES := -I $(ESCAPE_HOME) 
 DEFINES  := 
 CFLAGS   := -Wall -std=c++11 -g -O3 #-O3 -Werror
-LDFLAGS  := -L $(ESCAPE_HOME) -L/opt/homebrew/opt/gperftools/lib
+LDFLAGS  := -L $(ESCAPE_HOME) 
 LDLIBS   := -lescape -lstdc++ -lm 
 
 
